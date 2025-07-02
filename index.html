@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ekramy Abdellatif - معلم اللغة العربية</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts - Arabic -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a class="navbar-brand glow-text" href="#hero">
+                <span class="ar-text">إكرامي عبد اللطيف</span>
+                <span class="en-text" style="display: none;">Ekramy Abdellatif</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Language Toggle Button inside Navbar -->
+            <div class="d-lg-block ms-2 me-2">
+                <button id="langToggle" class="btn-lang">
+                    <i class="fas fa-globe"></i>
+                    <span id="langText">English</span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">
+                            <span class="ar-text">الرئيسية</span>
+                            <span class="en-text" style="display: none;">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <span class="ar-text">من أنا</span>
+                            <span class="en-text" style="display: none;">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">
+                            <span class="ar-text">الدورات</span>
+                            <span class="en-text" style="display: none;">Courses</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <span class="ar-text">تواصل معي</span>
+                            <span class="en-text" style="display: none;">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-12 text-center">
+                    <div class="hero-content">
+                        <div class="profile-image-container mb-4 animate-on-scroll">
+                            <img src="profile.png" 
+                                 alt="Ekramy Abdellatif" class="profile-image">
+                            <div class="image-glow"></div>
+                        </div>
+                        
+                        <h1 class="hero-title animate-on-scroll" data-delay="200">
+                            <span class="ar-text">إكرامي عبد اللطيف</span>
+                            <span class="en-text" style="display: none;">Ekramy Abdellatif</span>
+                        </h1>
+                        
+                        <p class="hero-subtitle animate-on-scroll" data-delay="400">
+                            <span class="ar-text">معلم تأسيس ومتابعة ابتدائى ومتوسط</span>
+                            <span class="en-text" style="display: none;">Primary and intermediate foundation and follow-up teacher</span>
+                        </p>
+                        <p class="hero-subtitle animate-on-scroll" data-delay="400">
+                            <span class="ar-text">الخرج بالمملكة العربية السعودية</span>
+                            <span class="en-text" style="display: none;">Al Kharj, Kingdom of Saudi Arabia</span>
+                        </p>
+                        <div class="hero-buttons animate-on-scroll" data-delay="600">
+                            <a href="#courses" class="btn btn-primary btn-glow me-3">
+                                <span class="ar-text">تصفح الدورات</span>
+                                <span class="en-text" style="display: none;">Browse Courses</span>
+                            </a>
+                            <a href="#contact" class="btn btn-outline-secondary btn-glow">
+                                <span class="ar-text">تواصل معي</span>
+                                <span class="en-text" style="display: none;">Contact Me</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="section-header text-center mb-5 animate-on-scroll">
+                        <h2 class="section-title">
+                            <span class="ar-text">من أنا</span>
+                            <span class="en-text" style="display: none;">About Me</span>
+                        </h2>
+                        <div class="title-underline"></div>
+                    </div>
+                    
+                    <div class="about-content animate-on-scroll" data-delay="200">
+                        <div class="about-card">
+                            <div class="ar-text">
+                                <p class="lead">مرحباً بكم، أنا إكرامي عبد اللطيف، معلم تأسيس ومتابعة جميع المواد ابتدائى ومتوسط بخبرة تزيد عن 25 سنة في تدريس اللغة العربية.</p>
+                                
+                                <div class="achievements mt-4">
+                                    <h5>إنجازاتي:</h5>
+                                    <ul>
+                                        <li>معلم لدى مدارس اللغات المصرية ومدارس الأهلية السعودية</li>
+                                        <li>خبرة 25+ سنوات في التدريس</li>
+                                        <li>شهادات معتمدة في تدريس اللغة العربية</li>
+                                        <li>متخصص في تعليم الأطفال والكبار</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="en-text" style="display: none;">
+                                <p class="lead">Welcome, I am Ekram Abdel Latif, a founding and follow-up teacher for all primary and intermediate subjects with over 25 years of experience in teaching the Arabic language.</p>
+                                
+                                <div class="achievements mt-4">
+                                    <h5>My Achievements:</h5>
+                                    <ul>
+                                        <li>Teacher at Egyptian Language Schools and Saudi National Schools</li>
+                                        <li>25+ years of teaching experience</li>
+                                        <li>Certified credentials in Arabic teaching</li>
+                                        <li>Specialized in teaching children and adults</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5 animate-on-scroll">
+                <h2 class="section-title">
+                    <span class="ar-text">الدورات والدروس</span>
+                    <span class="en-text" style="display: none;">Courses & Lessons</span>
+                </h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="course-card animate-on-scroll" data-delay="100">
+                        <div class="course-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h4 class="course-title">
+                            <span class="ar-text">قواعد اللغة العربية</span>
+                            <span class="en-text" style="display: none;">Arabic Grammar</span>
+                        </h4>
+                        <p class="course-description">
+                            <span class="ar-text">تعلم أساسيات النحو والصرف العربي بطريقة مبسطة وممتعة مع أمثلة تطبيقية متنوعة.</span>
+                            <span class="en-text" style="display: none;">Learn the basics of Arabic grammar and morphology in a simplified and enjoyable way with diverse practical examples.</span>
+                        </p>
+                        <div class="course-features">
+                            <span class="ar-text">
+                                <small><i class="fas fa-users"></i> مبتدئ - متوسط</small>
+                            </span>
+                            <span class="en-text" style="display: none;">
+                                <small><i class="fas fa-users"></i> Beginner - Intermediate</small>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="course-card animate-on-scroll" data-delay="100">
+                        <div class="course-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h4 class="course-title">
+                            <span class="ar-text">تأسيس اللغة العربية</span>
+                            <span class="en-text" style="display: none;">Establishment of the Arabic language</span>
+                        </h4>
+                        <p class="course-description">
+                            <span class="ar-text">تدريب الطالب على معرفة أماكن الحرف, أصوات الحروف, المد, تجميع الكلمات, الشمسية والقمرية وجميع الظواهر اللغوية والإملائية</span>
+                            <span class="en-text" style="display: none;">Training the student to know the locations of letters, letter sounds, extension, grouping solar and lunar words, and all linguistic and spelling phenomena.</span>
+                        </p>
+                        <div class="course-features">
+                            <span class="ar-text">
+                                <small><i class="fas fa-users"></i> مبتدئ - متوسط</small>
+                            </span>
+                            <span class="en-text" style="display: none;">                                <small><i class="fas fa-clock"></i> 20 hours</small>
+                                <small><i class="fas fa-users"></i> Beginner - Intermediate</small>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="course-card animate-on-scroll" data-delay="600">
+                        <div class="course-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4 class="course-title">
+                            <span class="ar-text">تعلم الرياضيات</span>
+                            <span class="en-text" style="display: none;">Learn mathematics</span>
+                        </h4>
+                        <p class="course-description">
+                            <span class="ar-text">تعلم أساسيات الجمع والطرح والضرب والقسمة</span>
+                            <span class="en-text" style="display: none;">Learn the basics of addition, subtraction, multiplication and division (elementary and intermediate)</span>
+                        </p>
+                        <div class="course-features">
+                            <span class="ar-text">
+                                <small><i class="fas fa-users"></i> من المبتدئ للمتقدم</small>
+                            </span>
+                            <span class="en-text" style="display: none;">
+                                <small><i class="fas fa-users"></i> Beginner to Advanced</small>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="course-card animate-on-scroll" data-delay="600">
+                        <div class="course-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4 class="course-title">
+                            <span class="ar-text">معالجة الضعاف</span>
+                            <span class="en-text" style="display: none;">Treating the weak</span>
+                        </h4>
+                        <p class="course-description">
+                            <span class="ar-text">معالجة الضعف فى مسك القلم و تهجئة الحروف وكتابتها بشكل صحيح بصبر</span>
+                            <span class="en-text" style="display: none;">Treating weakness in holding the pen and spelling and writing letters correctly with patience</span>
+                        </p>
+                        <div class="course-features">
+                            <span class="ar-text">
+                                <small><i class="fas fa-users"></i> من المبتدئ للمتقدم</small>
+                            </span>
+                            <span class="en-text" style="display: none;">
+                                <small><i class="fas fa-users"></i> Beginner to Advanced</small>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="section-header text-center mb-5 animate-on-scroll">
+            <h2 class="section-title">
+                <span class="ar-text">تواصل معي</span>
+                <span class="en-text" style="display: none;">Contact Me</span>
+            </h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="contact-form-container animate-on-scroll d-flex justify-content-center" data-delay="200">
+                    <a href="https://wa.me/+966563764069" target="_blank" class="whatsapp-btn" style="width: auto; height: auto; padding: 15px 30px; font-size: 1.3rem; border-radius: 40px; display: flex; align-items: center; gap: 10px; animation: none;">
+                        <i class="fab fa-whatsapp"></i>
+                        <span class="ar-text">تواصل عبر واتساب</span>
+                        <span class="en-text" style="display: none;">Contact via WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-brand">
+                        <h5 class="glow-text">
+                            <span class="ar-text">إكرامي عبد اللطيف</span>
+                            <span class="en-text" style="display: none;">Ekramy Abdellatif</span>
+                        </h5>
+                        <p>
+                            <span class="ar-text">معلم اللغة العربية المتخصص</span>
+                            <span class="en-text" style="display: none;">Specialized Arabic Language Teacher</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-links">
+                        <ul class="list-unstyled d-flex justify-content-end flex-wrap">
+                            <li><a href="#hero" class="footer-link">
+                                <span class="ar-text">الرئيسية</span>
+                                <span class="en-text" style="display: none;">Home</span>
+                            </a></li>
+                            <li><a href="#about" class="footer-link">
+                                <span class="ar-text">من أنا</span>
+                                <span class="en-text" style="display: none;">About</span>
+                            </a></li>
+                            <li><a href="#courses" class="footer-link">
+                                <span class="ar-text">الدورات</span>
+                                <span class="en-text" style="display: none;">Courses</span>
+                            </a></li>
+                            <li><a href="#contact" class="footer-link">
+                                <span class="ar-text">تواصل معي</span>
+                                <span class="en-text" style="display: none;">Contact</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright">
+                        <span class="ar-text">&copy; 2025 إكرامي عبد اللطيف. جميع الحقوق محفوظة.</span>
+                        <span class="en-text" style="display: none;">&copy; 2025 Ekramy Abdellatif. All rights reserved.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/+966563764069" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
